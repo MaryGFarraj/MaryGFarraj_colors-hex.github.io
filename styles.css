@@ -16,11 +16,8 @@ h1 {
 body {
     display: flex;
     flex-direction: column;
-    /* Stack elements vertically */
     justify-content: center;
-    /* Center the content horizontally */
     align-items: center;
-    /* Center the content vertically */
     height: 100vh;
     margin: -90px 0 0 0;
     background-color: #dcd6d1;
@@ -30,29 +27,21 @@ body {
 .container {
     display: flex;
     justify-content: flex-start;
-    /* Align the image to the left within the container */
     align-items: center;
     margin-left: -50px;
-    /* Adjust the margin as needed */
 }
-
-
-/* Your existing CSS for header and body */
 
 .palettes-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    /* Adjust margin as needed */
 }
 
 .palette-container {
     position: relative;
     margin: 0 -40px;
-    /* Adjust the margin between palettes */
     flex: 1;
-    /* Distribute available space evenly among palettes */
 }
 
 .palette-container img {
@@ -76,7 +65,6 @@ body {
 }
 
 .color-description p {
-    /* Add styles to ensure text is inside the box */
     margin: 10;
     text-align: left;
     font-size: 14px;
